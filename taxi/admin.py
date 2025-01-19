@@ -19,4 +19,4 @@ class ManufacturerAdmin(admin.ModelAdmin):
 class CarAdmin(admin.ModelAdmin):
     list_display = ["model", "manufacturer", ]
     list_filter = ["manufacturer", ]
-    search_fields = ["name", ]
+    search_fields = ["model", ]
